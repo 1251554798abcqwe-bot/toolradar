@@ -1,5 +1,6 @@
 # ToolRadar
 
+![Status: Active Development](https://img.shields.io/badge/status-active_development-blue.svg)
 [![CI](https://github.com/alexwang-engineering/toolradar/actions/workflows/ci.yml/badge.svg)](https://github.com/alexwang-engineering/toolradar/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
@@ -58,3 +59,7 @@ python -m json.tool data/tools.json > /dev/null
 GitHub Actions runs these offline checks on every push and pull request. Live
 source scraping is deliberately excluded from CI because upstream sites and
 network conditions are not deterministic.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
